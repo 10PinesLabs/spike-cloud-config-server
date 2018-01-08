@@ -1,0 +1,14 @@
+management:
+  security:
+    enabled: false
+server:
+  port: 8081
+spring:
+  profiles:
+    active: repo
+  cloud:
+    config:
+      server:
+        git:
+          ignoreLocalSshSettings: true
+          hostKeyAlgorithm: ssh-rsa
