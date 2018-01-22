@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: url-repo
+          hostKey: key-del-host
+          privateKey: private-key-ssh-para-que-no-haya-problemas

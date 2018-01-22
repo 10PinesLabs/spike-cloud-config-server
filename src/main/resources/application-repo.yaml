@@ -3,6 +3,4 @@ spring:
     config:
       server:
         git:
-          uri: repositorio-de-properties
-          hostKey: key-del-host
-          privateKey: private-key-ssh-para-que-no-haya-problemas
+          uri: https://github.com/10PinesLabs/spike-cloud-config-properties.git
