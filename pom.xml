@@ -4,7 +4,7 @@
 
   <groupId>com.spike.cloud-config</groupId>
   <artifactId>spike-cloud-config-server</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <parent>
@@ -18,7 +18,7 @@
     <developerConnection>
       scm:git:ssh://tapias.claro.amx:7999/mapp/spike-config-server
     </developerConnection>
-    <tag>spike-cloud-config-server-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
