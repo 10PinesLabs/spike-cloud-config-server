@@ -16,6 +16,26 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
+  <scm>
+    <developerConnection>
+      scm:git:ssh://tapias.claro.amx:7999/mapp/spike-config-server
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>repo</name>
+      <url>http://madariaga1.claro.amx:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>repo</name>
+      <url>http://madariaga1.claro.amx:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
